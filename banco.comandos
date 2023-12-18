@@ -1,0 +1,21 @@
+os comandos usados para o banco
+
+
+insert into usuario ( nome_usuario, email, senha)
+values ('Jennifer', 'jenni@gmail.com', 'jenni857'),
+('Lucas', 'lucas@gmail.com', 'lucas958');
+
+insert into compras ( data_compra, total_compra, destino_id_destino, usuario_id_usuario) values
+('2023-12-17', '500.0', 3, 1);
+
+insert into destino (nome_destino, pais, estado, cidade, data_ida, data_volta, preco) values
+('Disney Paris, França', 'França', '', 'Paris', '2023-10-12', '2023-11-11', '500.0'),
+('Disney Orlando, EUA', 'EUA', 'Flórida', 'Orlando', '2023-10-12', '2023-11-11', '500.0');
+
+insert into contato (nome, email, mensagem) values
+('Jennifer Ribeiro', 'jennifer@gmail.com', 'Olá');
+
+select * from usuario;
+select * from destino;
+select * from compra;
+select * from contato;
